@@ -5,23 +5,20 @@
   padding: 0;
   box-sizing: border-box;
 }
-html {
-}
+
 body {
   font-family: "Roboto", sans-serif;
   background-color: aliceblue;
   box-sizing: border-box;
 }
 
-header {
-  background-color: #c2d4ec;
-  text-align: center;
-}
-
 .container {
-  min-height: 100vh;
+  height: 100vh;
 }
 
+.terakhir {
+  height: 85vh;
+}
 nav {
   display: inline-block;
   height: 8vh;
@@ -43,11 +40,7 @@ nav {
 
 span {
   color: orange;
-  font-size: xx-large;
-}
-
-.logo {
-  font-size: medium;
+  font-size: 1.5em;
 }
 
 li {
@@ -58,29 +51,46 @@ li {
 
 li:hover {
   background-color: orange;
+  color: dimgray;
 }
 a {
   display: inline-block;
   text-decoration: none;
   color: #fff;
 }
+a:hover {
+  color: dimgray;
+}
 .phone {
   display: none;
 }
+aside {
+  position: fixed;
+  width: 25vw;
+  top: 15vh;
+  left: 71vw;
+}
 
+.konten {
+}
 main {
-  position: relative;
-  max-width: 800px;
-  margin: 0 auto;
-  background-color: #fff;
-  display: flex;
-  flex-direction: row;
+  margin: 0 30vw 0 0;
+  background-color: aliceblue;
+  /* display: flex;
+  flex-direction: row; */
 }
 
 .content {
   padding: 0 20px;
 }
-aside {
+
+footer {
+  height: 30px;
+  line-height: 30px;
+  font-size: 10px;
+  text-align: center;
+  color: white;
+  background-color: dimgrey;
 }
 
 @media screen and (max-width: 600px) {
